@@ -1,0 +1,295 @@
+IFB240 Assessment Task 2-Part A
+Criteria	Ratings	Points
+Context establishment
+view longer description
+20 to >16.9 pts
+High Distinction
+Excellent description with correct, concise, comprehensive details of the following: □ device hardware, □ operating system and version, □ application software, □ types and volumes of stored data □ overview of device usage; including identification of level of criticality of items/applications and data, and sensitivity of the data items included in description, with respect to CIA
+16.9 to >14.9 pts
+Distinction
+Very good description with correct, concise details (with only minor omissions) of the following: □ device hardware, □ operating system and version, □ application software, □ types and volumes of stored data □ overview of device usage; including identification of level of criticality of items/applications and data, and sensitivity of the data items included in description, with respect to CIA
+14.9 to >12.9 pts
+Credit
+Good description with some correct details for each of the following: □ device hardware, □ operating system and version, □ application software, □ types and volumes of stored data □ overview of device usage; including identification of level of criticality of items/applications and data, and sensitivity of the data items included in description, with respect to CIA
+12.9 to >9.9 pts
+Pass
+Satisfactory description with correct details for most of the following: □ device hardware, □ operating system and version, □ application software, □ types and volumes of stored data □ overview of device usage; including identification of level of criticality of items/applications and data, and sensitivity of the data items included in description, with respect to CIA
+9.9 to >4.9 pts
+Fail
+Description with some details for three or four of the following: □ device hardware, □ operating system and version, □ application software, □ types and volumes of stored data □ overview of device usage; including identification of level of criticality of items/applications and data, and sensitivity of the data items included in description, with respect to CIA
+4.9 to >0 pts
+Low Fail
+Description with some details for one or two the following: □ device hardware, □ operating system and version, □ application software, □ types and volumes of stored data □ overview of device usage; including identification of level of criticality of items/applications and data, and sensitivity of the data items included in description, with respect to CIA
+0 pts
+No Evidence
+No evidence of addressing this criterion.
+17.5 / 20 pts
+Disciplinary knowledge – Risk assessment
+view longer description
+30 to >25.5 pts
+High Distinction
+□ Identifies a comprehensive range of recent relevant risks to information assets related to the mobile device (including application related, operating system related, user behaviour related and physical threats) □ In each case, correctly and clearly describes the information asset impacted, explains the vulnerability and the threat that could exploit it, the resulting incident or attack and the impact on security goals □ evaluates identified risks and assigns treatment priorities for identified risks, with detailed justification
+25.5 to >22.5 pts
+Distinction
+□ Identifies a comprehensive range of recent relevant risks to information assets related to the mobile device (including application related, operating system related, user behaviour related and physical threats) □ In each case, correctly describes the information asset impacted, explains the vulnerability and the threat that could exploit it, provides an outline of the resulting incident or attack and the impact on security goals □ evaluates identified risks and assigns treatment priorities for identified risks, with plausible justification
+22.5 to >19.5 pts
+Credit
+□ Identifies a range of recent relevant risks to information assets related to the mobile device (including application related, operating system related, user behaviour related and physical threats) □ In each case, describes the information asset impacted, explains the vulnerability and the threat that could exploit it, provides an outline of the resulting incident or attack and the impact on security goals, with only minor errors/omissions □ evaluates identified risks and assigns treatment priorities for identified risks, with some justification
+19.5 to >14.9 pts
+Pass
+□ Identifies three or more recent relevant risks to information assets related to the mobile device (including application related, operating system related, user behaviour related and physical threats) □ In each case, describes the information asset impacted, explains the vulnerability and the threat that could exploit it, provides some details of the resulting incident or attack and the impact on security goals, with a few errors or omissions □ evaluates identified risks and assigns treatment priorities for identified risks, with an attempt at justification
+14.9 to >7.4 pts
+Fail
+□ Identifies two or three recent relevant risks to information assets related to the mobile device (including application related, operating system related, user behaviour related and physical threats) □ In each case, provides a limited description of the information asset impacted, or gives a superficial explanation of the vulnerability and the threat that could exploit it, the resulting incident or attack and the security goals affected □ attempts to evaluate identified risks and assigns treatment priorities for identified risks, although without justification
+7.4 to >0 pts
+Low Fail
+□ Identifies at least one recent relevant risk to information assets related to the mobile device (from the following categories: application related, operating system related, user behaviour related and physical threats) □ Attempts to describe the information asset impacted, explain the vulnerability and the threat that could exploit it, and the resulting incident or attack and the security goals affected □ attempts to evaluate risks or assigns treatment priorities for identified risks, although without justification
+0 pts
+No Evidence
+No evidence of addressing this criterion
+20 / 30 pts
+Disciplinary knowledge – Privacy
+view longer description
+20 to >16.9 pts
+High Distinction
+Comprehensive policy summary providing a detailed and correct description of the required aspects Comprehensive risk assessment that correctly: □ identifies the risks, □ performs appropriate analysis □ evaluates analyzed risks □ assigns treatment priorities for identified privacy risks, with justification
+16.9 to >14.9 pts
+Distinction
+Very good policy summary providing some relevant details for all required aspects Very good risk assessment that correctly: □ identifies the risks, □ performs some analysis □ evaluates analyzed risks □ assigns treatment priorities for identified privacy risks, with plausible justification
+14.9 to >12.9 pts
+Credit
+Good policy summary providing some details for all required aspects Good risk assessment that correctly: □ identifies some risks, □ performs some analysis □ evaluates some analyzed risks □ assigns treatment priorities for identified privacy risks, with some justification
+12.9 to >9.9 pts
+Pass
+Adequate policy summary providing a correct description of most of the relevant aspects Satisfactory risk assessment that correctly: □ identifies some risks, □ performs some analysis □ attempts to evaluate analyzed risks □ assigns treatment priorities for identified privacy risks, with an attempt at justification
+9.9 to >4.9 pts
+Fail
+Policy summary providing descriptions of some of the relevant information Attempted risk assessment that: □ identifies some risks, □ attempts to analyze identified risks □ attempts to evaluate analyzed risks □ assigns treatment priorities for identified privacy risks, although without justification
+4.9 to >0 pts
+Low Fail
+Policy summary providing a description of only a few relevant aspects Attempted risk assessment that: □ identifies a risk, □ attempts to analyze the identified risk □ attempts to evaluate analyzed risks
+0 pts
+No Evidence
+No evidence of addressing this criterion
+20 / 20 pts
+Disciplinary knowledge - risk management process
+view longer description
+10 to >8.49 pts
+High Distinction
+□ Correctly evaluates all identified risks, using the most appropriate method. □ Assigns treatment priorities for identified risks, with detailed justification.
+8.49 to >7.49 pts
+Distinction
+□ Correctly evaluates most identified risks, using the appropriate method. □ Assigns treatment priorities for identified risks, with plausible justification.
+7.49 to >6.49 pts
+Credit
+□ Correctly evaluates some identified risks, using the appropriate method. □ Assigns treatment priorities for identified risks, with some justification.
+6.49 to >4.99 pts
+Pass
+□ Evaluates some identified risks, using an appropriate risk evaluation method with only minor errors. □ Assigns treatment priorities for some identified risks, with some justification.
+4.99 to >2.49 pts
+Fail
+□ Evaluates some identified risks, although with some errors in methodology or application. □ Assigns treatment priorities for some identified risks, with an attempt justification.
+2.49 to >0 pts
+Low Fail
+□ Attempts to evaluate analyzed risks, although with major errors in methodology. □ Assigns treatment priorities for identified risks, although without justification.
+0 pts
+No Evidence
+No evidence of addressing this criterion.
+2 / 10 pts
+Professional written communication skills
+view longer description
+10 to >8.49 pts
+High Distinction
+Well structured, professionally presented report, which meets all specifications. Free of spelling and grammatical errors.
+8.49 to >7.49 pts
+Distinction
+Report is reasonably well-structured and professionally presented and meets most of the specifications. Only a few minor spelling and/or grammatical errors.
+7.49 to >6.49 pts
+Credit
+Report has a clear structure and in the main, is professionally presented and meets many of the specifications. Contains a few spelling and/or grammatical errors.
+6.49 to >4.99 pts
+Pass
+Report has some structure, some issues in meeting the requirements as detailed in the specification. Contains several spelling and/or grammatical errors.
+4.99 to >2.49 pts
+Fail
+Limited structure used in the report. The report did not meet many of the requirements as detailed in the specification. Significant spelling and/or grammatical errors, in some parts obscuring the meaning.
+2.49 to >0 pts
+Low Fail
+Very limited structure used in the report. The report met only a few of the requirements as detailed in the specification. Little evidence of proof-reading for spelling and grammar errors.
+0 pts
+No Evidence
+No evidence of addressing this criterion.
+6 / 10 pts
+Referencing
+view longer description
+10 to >8.49 pts
+High Distinction
+Use of in-text citations and referencing conforming to APA style with no errors.
+8.49 to >7.49 pts
+Distinction
+Use of in-text citations and referencing conforming to APA style with only minor errors.
+7.49 to >6.49 pts
+Credit
+Use of in-text citations and referencing mostly conforming to APA style with a few errors.
+6.49 to >4.99 pts
+Pass
+Frequent use of in-text citations, but APA referencing has some errors.
+4.99 to >2.49 pts
+Fail
+Infrequent use of in-text citations and frequent and significant errors in APA referencing.
+2.49 to >0 pts
+Low Fail
+Very infrequent use of in-text citations and very frequent and significant errors in APA referencing.
+0 pts
+No Evidence
+No evidence of addressing this criterion.
+7 / 10 pts
+Total points: 72.5
+[Where we scored]:
+Context establishment: HD (17.5)
+Disciplinary knowledge - C Risk Assessment (20/30)
+Disciplinary knowledge - HD Privacy (20/20)
+Disciplinary knowledge - LF Risk Management process (2/10)
+Pro written communication skills P (6/10)
+Referencing C (7/10)
+
+Marking Rubric for Part B (IT IS NOT DUE YET SO THIS IS FOR REFERENCE ON WHAT TO ACHIEVE)
+
+IFB240 Assessment Task 2 - Part B
+Criteria	Ratings	Points
+Disciplinary Knowledge - Risk Treatment
+50 to >42.49 pts
+High Distinction
+Provides a comprehensive description of relevant control measures to treat each of the security risks identified in Part A. Clear description correctly explains how each suggested control measure applies, and the degree of protection provided for certain risks. Correctly categorises the control measures, and clearly explains the limitations of the selected control measures in practical applications.
+42.49 to >37.49 pts
+Distinction
+Provides a very good description of relevant control measures to treat each of the security risks identified in Part A. Description correctly explains how each suggested control measure applies, and the degree of protection provided for most risks. Correctly categorises the control measures, and explains the limitations of the selected control measures in practical applications.
+37.49 to >32.49 pts
+Credit
+Provides a good description of control measures to treat each of the security risks identified in Part A. Description correctly explains how each suggested control measure applies, and the degree of protection provided for some risks. Categorises the control measures, and explains some limitations of the selected control measures in practical applications, with only minor errors.
+32.49 to >24.99 pts
+Pass
+Provides an adequate description of control measures to treat most of the security risks identified in Part A. Description explains how each suggested control measure applies, with some minor errors, and estimates the degree of protection for some risks. Categorises the control measures and explains the limitations of some control measures in practical applications, with few errors.
+24.99 to >12.49 pts
+Fail
+Identifies but does not fully describe control measures to treat some security risks identified in Part A. Attempts to explain how some suggested control measure applies, for some risks. Categorises the control measures, with a few errors.
+12.49 to >0 pts
+Low Fail
+Identifies but does not describe a control measure to treat a security risk identified in Part A. Incorrect or missing explanation of how the control measure applies. Incorrect or missing categorization of the control measure. Does not identify the limitations of the control measure in practical applications.
+0 pts
+No Evidence
+No evidence of addressing this criterion.
+/ 50 pts
+Make and justify recommendations
+30 to >25.49 pts
+High Distinction
+Presents a comprehensive range of control recommendations that have high practical value in effectively managing the identified risks. Recommendations are fully and convincingly justified and take into consideration a broad range of controls including people, process and technology. Timeline for implementation is realistic. Relevance to organisation is clearly evident.
+25.49 to >22.49 pts
+Distinction
+Presents a wide range of control recommendations that for the most part, have practical value in effectively managing the identified risks. Recommendations are in the main convincingly justified and take into consideration a somewhat broad range of issues relating to people, process and technology. Timeline for implementation is plausible. Relevance to organisation is evident.
+22.49 to >19.49 pts
+Credit
+Presents a range of control recommendations that have some practical value in effectively managing the most serious of the identified risks. Recommendations are generally well justified and take into consideration a narrow range of issues relating to people, process and technology. Timeline for implementation is possible. Some relevance to organisation.
+19.49 to >14.99 pts
+Pass
+Presents some generic control recommendations for managing some of the identified risks. Recommendations generally have some practical value but have not been adequately justified. Take into account some issues relating predominately to technology, with only a minor mention of people and/or process. Timeline for implementation is provided. Relevance to organisation not always clearly evident.
+14.99 to >7.49 pts
+Fail
+Presents a few vague control recommendations for managing risk, with limited practical value. Recommendations have a weak and unconvincing justification. Has not adequately considered people and/or process and/or technology. Timeline for implementation is missing or unrealistic. Relevance to the organisation is not evident.
+7.49 to >0 pts
+Low Fail
+Presents a few control recommendations with very limited or no practical value. Very weak justification with lack of consideration given to issues related to people, process and technology. No timeline given for implementation. Relevance to the organisation is not evident.
+0 pts
+No marks
+No evidence of addressing this criterion.
+/ 30 pts
+Professional written communication skills
+10 to >8.49 pts
+High Distinction
+Well structured, professionally presented report, which meets all specifications. Free of spelling and grammatical errors.
+8.49 to >7.49 pts
+Distinction
+Report is reasonably well-structured and professionally presented and meets most of the specifications. Only a few minor spelling and/or grammatical errors.
+7.49 to >6.49 pts
+Credit
+Report has a clear structure and, in the main, is professionally presented and meets many of the specifications. Contains a few spelling and/or grammatical errors.
+6.49 to >4.99 pts
+Pass
+Report has some structure, some issues in meeting the requirements as detailed in the specification. Contains several spelling and/or grammatical errors.
+4.99 to >2.49 pts
+Fail
+Limited structure used in the report. The report did not meet many of the requirements as detailed in the specification. Significant spelling and/or grammatical errors, in some parts obscuring the meaning.
+2.49 to >0 pts
+Low Fail
+Very limited structure used in the report. The report met only a few of the requirements as detailed in the specification. Little evidence of proof-reading for spelling and grammar errors.
+0 pts
+No marks
+No evidence of addressing this criterion.
+/ 10 pts
+Referencing
+10 to >8.49 pts
+High Distinction
+Use of in-text citations and referencing conforming to APA style with no errors.
+8.49 to >7.49 pts
+Distinction
+Use of in-text citations and referencing conforming to APA style with only minor errors.
+7.49 to >6.49 pts
+Credit
+Use of in-text citations and referencing mostly conforming to APA style with a few errors.
+6.49 to >4.99 pts
+Pass
+Frequent use of in-text citations, but APA referencing has some errors.
+4.99 to >2.49 pts
+Fail
+Infrequent use of in-text citations and frequent and significant errors in APA referencing.
+2.49 to >0 pts
+Low Fail
+Very infrequent use of in-text citations and very frequent and significant errors in APA referencing.
+0 pts
+No marks
+No evidence of addressing this criterion.
+/ 10 pts
+Total points: 0
+
+[Note: I would prefer you aim for HD in terms of work output but im happy to compromise]
+
+
+
+
+Feedback for Part A:
+
+- Make Headings numbered (included decimals)
+- put Asset Details & Configuration into table form
+- A2 Risk Report – Group 24
+IFB240 8 of 20
+Risk Identification and Analysis
+Article #1 – User Behaviour 
+Title: Apple issues warning to all 1.8b iPhone users: Delete this app NOW or your bank details will
+be stolen
+Author: Chris Melore
+Reference:
+Melore, C. (25 April 2025). Apple issues warning to all 1.8b iPhone users: Delete this app NOW or
+your bank details will be stolen. Daily Mail Australia.
+https://www.dailymail.co.uk/sciencetech/article-14644235/Apple-issues-warning-1-8b-iPhone-
+users-Delete-app-bank-details-stolen.html on 25 April 2025.
+
+The above article is not valid as it does not relate to the Yoga 7i Laptop
+
+- No citation of the Privacy Policy. (Privacy Impact Analysis>Policy Analysis)
+- [[1]"Not true, For the customer to be using the massager service they have consented to this data being collected as part of themselves establishing an account on the Meta platform."]: "This would create a regulatory vulnerability as customers have not provided consent for their
+preferences and personal information to be shared with Meta or its third-party partners. With 16,800
+customer profiles managed by the restaurant, as noted in the Data Profile section, this represents a
+substantial compliance risk under Australian Privacy Legislation (Privacy Act 1988 (Cth))." [[2]"This point is very valid, there is a risk of data bleed, or contamination between the personal and business communications.
+This raises a point that the account(s) being used in the Metasphere is there One for the machine, and owner, or several? If more than one how are they being managed?"]:"The lack
+of data segregation between personal and business communications further exacerbates this risk,
+potentially leading to regulatory penalties and reputational damage if customer data is subjected to
+malpractice".
+
+- ["Only one risk is detailed, that being the privacy risk.
+
+There is no explanation of the methodologies of how this risk was assessed, or how the other risks could be assessed.
+
+As there is only One risk there is no priority either."] (Risk Evaluation and Prioritisation for Treatment Section).
+
+- ["Not acceptable appendices. Full copies of the document are expected here."]: (Appendices: *It included the 3 articles in pdf form, im unsure what its asking*).
+
