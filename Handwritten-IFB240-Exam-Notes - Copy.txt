@@ -1,0 +1,543 @@
+﻿THREAT MODELING APPROACHES
+· STRIDE MODEL (Microsoft):
+o SPOOFING: Impersonating something/someone else
+o TAMPERING: Modifying data/code maliciously
+o REPUDIATION: Denying having performed an action
+o INFORMATION DISCLOSURE: Exposing information to unauthorized parties
+o DENIAL OF SERVICE: Making Sys/data unavailable
+o ELEVATION OF PRIVILEGE: Gaining unauthorized capabilities
+· DREAD MODEL (Microsoft):
+o DAMAGE: How bad would an attack be?
+o REPRODUCIBILITY: How easy to reproduce the attack?
+o EXPLOITABILITY: How much effort/expertise needed?
+o AFFECTED USERS: How many users impacted?
+o DISCOVERABILITY: How easy to discover vulnerability?
+· MITRE ATT&CK FRAMEWORK:
+o Knowledge base of adversary tactics and techniques
+o Maps real-world observations of cyber attacks
+o Organized by attack lifecycle phases
+THREAT ACTORS
+· RESOURCES: Funding, tools, infrastructure
+· CAPABILITY: Knowledge, skills, experience
+· MOTIVATION: Why they seek to cause harm
+· INTENT: What they specifically seek to do
+· TYPES OF THREAT ACTORS:
+o NATION-STATES: Military/intelligence agencies
+o ORGANIZED CRIME: Financial motivation
+o HACKTIVISTS: Ideology/political motivation
+o INSIDERS: Employees/contractors w/ access
+o SCRIPT KIDDIES: Unskilled attackers using existing tools
+o COMPETITORS: Corporate espionage, sabotage
+        COMMON VULNERABILITIES
+· PHYSICAL VULNERABILITIES:
+o Unsecured physical access
+o Lack of environmental controls
+o Improper disposal/reuse of equipment
+o E.g.: Cabinet Files breach (Feb 2018) - classified docs found in 2nd-hand furniture
+· TECHNICAL VULNERABILITIES:
+o UNPATCHED SOFTWARE: Missing security updates
+o POOR CONFIGURATION: Default settings, unnecessary services
+o WEAK AUTHENTICATION: Password weaknesses, lack of MFA
+o ENCRYPTION FLAWS: Weak algorithms, poor key management
+o CODING ERRORS: Buffer overflows, SQL injection
+· COMMON MALWARE TYPES:
+o VIRUSES: Programs that replicate by inserting into other programs
+o WORMS: Self-replicating programs that spread across networks
+o TROJANS: Programs w/ hidden malicious functionality
+o RANSOMWARE: Encrypts data, demands payment for decryption
+o SPYWARE: Secretly collects information
+· VULNERABILITY DATABASES:
+o CVE (Common Vulnerabilities and Exposures): Standard identifiers
+o NVD (National Vulnerability Database): U.S. government repository
+o CVSS (Common Vulnerability Scoring Sys): Standardized severity ratings
+§ Base score: 0-10 based on exploitability and impact metrics
+§ Temporal score: Adjusts for remediation lvl and reporting confidence
+§ Environmental score: Organization-specific adjustments
+VULNERABILITY MANAGEMENT
+· LIFECYCLE:
+o DISCOVERY: Identify vulnerabilities through scanning/testing
+o ASSESSMENT: Determine severity and potential impact
+o PRIORITIZATION: Rank vulnerabilities based on risk
+o REMEDIATION: Patch, reconfigure, or mitigate
+o VERIFICATION: Confirm remediation effectiveness
+· SECURITY TESTING TYPES:
+o VULNERABILITY SCANNING: Automated tools to detect known issues
+o PENETRATION TESTING: Simulated attacks to find exploitable weaknesses
+o CODE REVIEW: Examining source code for security flaws
+o RED TEAM EXERCISES: Comprehensive simulated attacks
+o DOCUMENTATION: Record implementation details and rationale
+RISK EVALUATION
+· COMPARE: Risk lvls against established criteria
+· PRIORITIZE: Risks requiring treatment
+· CATEGORIES:
+o EXTREME: Immediate action required
+o HIGH: Senior management attention needed
+o MODERATE: Management responsibility must be specified
+o LOW: Manage by routine procedures
+RISK TREATMENT
+· RISK AVOIDANCE: Stop activity giving rise to risk
+o E.g.: Do not implement feature w/ high security risk
+· RISK MODIFICATION: Apply controls to reduce likelihood/consequence
+o E.g.: Implement technical, physical, administrative controls
+· RISK SHARING: Transfer risk to another party
+o E.g.: Insurance, outsourcing, contracts
+· RISK RETENTION: Accept risk w/out further action
+o E.g.: Cost of treatment exceeds benefit
+· TREATMENT SELECTION FACTORS:
+o EFFECTIVENESS: Degree of risk reduction achieved
+o COST-BENEFIT: Balance cost against benefits (proportionality principle)
+o MULTIPLE CONTROLS: May need several controls per risk
+o MULTIPLE RISKS: Single control may address multiple risks
+o SECONDARY RISKS: Treatment may introduce new risks
+· IMPLEMENTATION PLAN ELEMENTS:
+o ACTIONS: Specific implementation steps
+o RESOURCES: Required people, equipment, funding
+o RESPONSIBILITIES: Who is accountable
+o TIMING: Implementation schedule
+o MONITORING: How effectiveness will be measured
+o RESIDUAL RISK: Risk remaining after controls implemented
+RISK MONITORING & REVIEW
+· PURPOSES:
+o ENSURE CONTROLS EFFECTIVE: Verify controls work
+ as intended
+o DETECT CHANGES: In context, assets, threats, vulnerabilities
+o IDENTIFY NEW RISKS: Emerging threats, new assets
+o DOCUMENT LESSONS: From incidents and near misses
+o IMPROVE PROCESS: Enhance risk management approach
+· E.G. OF CHANGES REQUIRING REVIEW:
+o NEW TECHNOLOGIES: IoT, cloud services
+o NEW CONNECTIVITY: Sys integrations
+o ORGANIZATIONAL: Changes in personnel, structure
+
+
+THREATS & VULNERABILITIES
+THREAT CONCEPTS
+· THREAT: Potential cause of unwanted incident causing harm
+· THREAT EVENT: Occurrence/change of set of circumstances
+· THREAT ACTOR: Person/entity that can cause harm
+· THREAT ACTIONS: Specific activities that could cause harm
+· ATTACK: Deliberate exploitation of vulnerability
+o PASSIVE ATTACK: Attempts to learn/use information w/out affecting Sys
+o ACTIVE ATTACK: Attempts to alter Sys resources
+ or affect operation
+THREAT CATEGORIES
+· NATURAL: Environmental events not involving humans
+o Floods, fires, earthquakes, storms
+o Lightning strikes, power outages
+· HUMAN-DELIBERATE: Intentional actions
+o EXTERNAL: Hackers, competitors, nation-states
+o INTERNAL: Disgruntled employees, contractors
+· HUMAN-ACCIDENTAL: Unintentional actions
+o User errors, misconfiguration
+o Improper disposal of materials
+· TECHNICAL: Equipment/technology failures
+o Hardware failures, software bugs
+o Sys crashes, capacity issues
+RISK MANAGEMENT PROCESS (AS/NZS 27005:2024)
+RISK MANAGEMENT FRAMEWORK OVERVIEW
+· PROCESS STEPS: Context establishment → Risk assessment (identification, analysis, evaluation) → Risk treatment → Risk monitoring/review → Recording/reporting
+· COMMUNICATION & CONSULTATION: Two-way dialogue w/ stakeholders throughout all steps
+· RISK DOCUMENTATION: Record assumptions, methods, data sources, analysis, results, decisions made
+· SCOPE: Define boundaries, inclusions/exclusions from risk management program
+   CONTEXT ESTABLISHMENT
+· EXTERNAL CONTEXT: Relationship between organization and external environment
+· INTERNAL CONTEXT: Organization's capabilities, goals, objectives, structure
+· RISK MANAGEMENT CONTEXT: Goals, objectives, strategies, scope, responsibilities
+· RISK CRITERIA: Parameters for evaluating risk significance
+o Lvl of risk deemed acceptable (risk appetite)
+o How likelihood will be defined
+o Timeframe of likelihood/consequences
+o How risk lvl will be determined
+o Stakeholder viewpoints
+o What lvl requires treatment
+RISK IDENTIFICATION
+· IDENTIFY ASSETS: Anything valuable requiring protection
+o PRIMARY ASSETS: Business processes, activities, information
+o SUPPORTING ASSETS: Hardware, software, networks, personnel, facilities
+· IDENTIFY THREATS: Potential causes of incidents causing harm
+o NATURAL: Floods, fires, earthquakes
+o HUMAN-DELIBERATE: Unauthorized access, fraud, sabotage
+o HUMAN-ACCIDENTAL: User errors, configuration mistakes
+o TECHNICAL: Equipment failures, software bugs
+· IDENTIFY VULNERABILITIES: Weaknesses that can be exploited
+o PHYSICAL: Unsecured doors, lack of fire protection
+o TECHNICAL: Unpatched Sys, weak passwords
+o PROCEDURAL: Lack of training, inadequate procedures
+o PERSONNEL: Social engineering susceptibility
+RISK ANALYSIS
+· QUALITATIVE ANALYSIS: Uses descriptive scales
+o CONSEQUENCE SCALE E.G.:
+§ MAJOR: Significant financial loss, threatens services
+§ MODERATE: Services continue but need revision
+§ MINOR: Effectiveness threatened but manageable
+§ INSIGNIFICANT: Dealt w/ in routine operations
+o LIKELIHOOD SCALE E.G.:
+§ HIGH: Expected to occur in most circumstances
+§ MEDIUM: Might occur at some time
+§ LOW: Could occur but not expected
+§ UNLIKELY: May occur only in exceptional circumstances
+o RISK MATRIX: Combines likelihood and consequence
+o LEGEND: E=extreme risk (immediate action), 
+H=high risk (senior management attention), 
+M=moderate risk (specify management responsibility), 
+L=low risk (routine procedures)
+· QUANTITATIVE ANALYSIS: Uses numerical values
+o ASSET VALUE (AV): Value of asset (monetary)
+o EXPOSURE FACTOR (EF): Percentage of asset value lost in incident
+o SINGLE LOSS EXPECTANCY (SLE): AV × EF
+o ANNUALIZED RATE OF OCCURRENCE (ARO): Expected frequency per year
+o ANNUALIZED LOSS EXPECTANCY (ALE): SLE × ARO
+o E.G.: Server worth $50,000 w/ 30% damage expected from incident that occurs once every 5yrs
+§ AV = $50,000
+§ EF = 30% = 0.3
+§ SLE = $50,000 × 0.3 = $15,000
+§ ARO = 1/5 = 0.2
+§ ALE = $15,000 × 0.2 = $3,000
+· SEMI-QUANTITATIVE ANALYSIS:
+o Assigns numerical values to qualitative scales
+o Caution required when using in formulas (can be misleading)
+SECURITY GOVERNANCE & MANAGEMENT FRAMEWORKS
+AS/NZS ISO/IEC 27K SERIES
+· AS/NZS 27001:2023: Information Security Management Sys (ISMS) - Requirements
+· 10 Clauses: Context, Leadership, Planning, Support, Operation, Perf. Eval., Improvement
+· REQUIRED for certification/compliance
+· AS/NZS 27002:2022: Information Security Controls
+· 4 CONTROL CATEGORIES:
+· ORGANIZATIONAL (5.1-5.37): Policies, roles, responsibilities
+· PEOPLE (6.1-6.8): Human resource security, awareness
+· PHYSICAL (7.1-7.14): Physical entry, equipment security
+· TECHNOLOGICAL (8.1-8.34): Access control, cryptography
+· AS/NZS 27005:2024: Guidance on Managing Information Security Risks
+· Information security risk management process
+· Provides methodology for evaluating and treating risks
+NIST CYBERSECURITY FRAMEWORK (CSF 2.0)
+· SIX FUNCTIONS:
+· GOVERN: Establishing risk management strategy, policy, monitoring
+· Understanding organization's needs
+· Developing risk strategy
+· Establishing practices
+· Managing supply chain risk
+· Implementing continuous oversight
+· IDENTIFY: Asset management, business environment
+· PROTECT: Access control, awareness, data security
+· DETECT: Anomalies, continuous monitoring
+· RESPOND: Response planning, communications
+· RECOVER: Recovery planning, improvements
+THREE LINES MODEL
+· FIRST LINE: Operational management (day-to-day operations)
+· Direct responsibility for identifying and managing risks
+· Implements controls, processes, and procedures
+· SECOND LINE: Risk management, compliance, security functions
+· Provides expertise, support, monitoring
+· Helps design policies and procedures
+· Identifies issues and trends
+· THIRD LINE: Internal audit (independent assurance)
+· Independent evaluation of controls effectiveness
+· Reports to audit committee or board
+SECURITY ROLES & RESPONSIBILITIES
+· CEO: Ultimate accountability for security
+· CSO/CISO: Chief Security/Information Security Officer
+· Develops and implements security strategy
+· Manages security operations
+· SECURITY STAFF: Implementation and operations
+· IT STAFF: Sys maintenance and technical controls
+· USERS: Following policies, awareness, reporting incidents
+· THIRD PARTIES: Partners, suppliers, customers
+· Shared responsibility based on contracts
+ESSENTIAL EIGHT CONTROLS
+· APPLICATION CONTROL: Prevent execution of malicious code
+· PATCH APPLICATIONS: Patch/mitigate vulnerabilities in applications
+· RESTRICT ADMIN PRIVILEGES: Limit administrator privileges
+· PATCH OPERATING SYSS: Patch/mitigate OS vulnerabilities
+· MULTI-FACTOR AUTHENTICATION: Multiple layers of authentication
+· REGULAR BACKUPS: Maintain availability of critical data
+· USER APPLICATION HARDENING: Configure browsers to block ads/scripts
+· CONFIGURE MICROSOFT OFFICE MACRO SETTINGS: Block macros
+CORE SECURITY CONCEPTS 
+FUNDAMENTAL SECURITY GOALS
+· CONFIDENTIALITY: Prevention of unauthorized disclosure of information
+· INTEGRITY: Information is not altered by unauthorized parties
+· AVAILABILITY: Ensuring resources are accessible when needed by authorized users
+· AUTHENTICATION: Verification that a claimed identity is genuine
+· ENTITY AUTHENTICATION: Verifying the identity of a person/Sys
+· DATA ORIGIN AUTHENTICATION: Verifying the source of data
+· NON-REPUDIATION: Creating evidence of actions to prevent later denial
+INFORMATION STATES
+· IN STORAGE: Information stored electronically, physically, or in human memory
+· E.g.: Data in databases, paper documents, memorized information
+· IN TRANSMISSION: Information being sent from one location to another
+· E.g.: Data moving over networks, physical mail, verbal communication
+· BEING PROCESSED: Information being created, modified, or transformed
+· E.g.: Data being entered, modified, or analysed in applications
+SECURITY TERMINOLOGY
+· ASSET: Anything of value that requires protection (tangible or intangible)
+· Types: Information, hardware, software, personnel, services
+· VULNERABILITY: Weakness that could be exploited causing harm
+· Types: Technical flaws, procedural weaknesses, physical weaknesses
+· THREAT: Potential for harm to an asset
+· THREAT ACTOR: Person or entity that can cause harm
+· THREAT ACTION: Specific action that could cause harm
+· ATTACK: Deliberate exploitation of a vulnerability
+· PASSIVE ATTACK: Attempts to learn/use information w/out affecting Sys
+· ACTIVE ATTACK: Attempts to alter Sys resources or affect operation
+· SECURITY INCIDENT: Single or series of events that compromise security
+· CONTROLS: Safeguards or countermeasures to avoid, detect, counteract, or minimize risk
+· PREVENTIVE: Avoid incidents (e.g., firewalls, encryption)
+· DETECTIVE: Identify incidents (e.g., IDS, security cameras)
+· CORRECTIVE: Fix after incidents (e.g., backups, incident response)
+ATTACK TYPES
+· DOS/DDOS: Denial of Service/Distributed Denial of Service attacks
+· MALWARE: Software designed to damage Sys (viruses, worms, ransomware)
+· MITM: Man-in-the-Middle/Machine-in-the-Middle attacks
+· PHISHING: Fraudulent attempts to obtain sensitive information
+· RANSOMWARE: Malware that encrypts data and demands payment
+· REPLAY ATTACK: Retransmission of valid data to gain unauthorized access
+· SPOOFING: Impersonating another entity to gain advantage
+· SOCIAL ENGINEERING: Psychological manipulation to trick users
+
+ASYMMETRIC CRYPTOGRAPHY
+· USES KEY PAIRS: Public key and private key
+· PUBLIC KEY: Distributed openly, used for encryption/verification
+· PRIVATE KEY: Kept secret, used for decryption/signing
+· SLOWER than symmetric but solves key distribution problem
+· n users need only n key pairs (2n keys total)
+ASYMMETRIC ALGORITHMS:
+· RSA (Rivest-Shamir-Adleman):
+o SECURITY based on difficulty of factoring large numbers
+o OPERATIONS: Modular exponentiation
+o KEYS: Public key (n,e), Private key (n,d)
+§ n = product of two large primes p and q
+§ e = public exponent (typically 65537)
+§ d = private exponent (calculated from p, q, and e)
+· ELLIPTIC CURVE CRYPTOGRAPHY (ECC):
+o SECURITY based on elliptic curve discrete logarithm problem
+o ADVANTAGE: Smaller key sizes for equivalent security lvl
+KEY DISTRIBUTION APPROACHES:
+· PRE-DISTRIBUTION: Keys shared in advance
+· TRUSTED THIRD PARTY: Distributes session keys
+· DIFFIE-HELLMAN: Key exchange protocol
+· PUBLIC KEY CERTIFICATES: Bind public keys to identities
+HASH FUNCTIONS
+· ONE-WAY FUNCTION: Easy to compute hash, infeasible to reverse
+· FIXED OUTPUT SIZE regardless of input size
+· COLLISION RESISTANCE: Hard to find two inputs w/ same hash
+· DETERMINISTIC: Same input always produces same output
+COMMON HASH ALGORITHMS:
+· MD5: 128-bit output (BROKEN, not secure)
+· SHA-1: 160-bit output (BROKEN, not secure)
+· SHA-256: 256-bit output (Currently secure)
+· SHA-3: Latest SHA family (Various output sizes)
+APPLICATIONS:
+· PASSWORD STORAGE: Store hash of password, not password itself
+· DATA INTEGRITY: Verify content hasn't changed
+· DIGITAL SIGNATURES: Sign hash of message, not message
+· COMMITMENT SCHEMES: Commit to value w/out revealing it
+DIGITAL SIGNATURES
+PROCESS:
+· SIGNING: Create hash of message → Encrypt hash w/ private key
+· VERIFICATION: Decrypt signature w/ public key → Compare w/ independently calculated hash
+PROPERTIES:
+· AUTHENTICATION: Verifies source of message
+· INTEGRITY: Detects modifications to message
+· NON-REPUDIATION: Signer cannot deny signing message
+ALGORITHMS:
+· RSA SIGNATURES: Uses RSA private key to encrypt hash
+· DSA: Digital Signature Algorithm
+· ECDSA: Elliptic Curve Digital Signature Algorithm
+SYMMETRIC CRYPTOGRAPHY
+· SAME KEY used for encryption and decryption
+· FASTER than asymmetric cryptography
+· REQUIRES secure key distribution
+· KEY MANAGEMENT CHALLENGE: n users need n(n-1)/2 keys
+      SYMMETRIC KEY ALGORITHMS:
+· BLOCK CIPHERS: Process fixed-length blocks of data
+o DES: Data Encryption Standard (56-bit key, obsolete)
+o 3DES: Triple DES (168-bit key)
+o AES: Advanced Encryption Standard (128/192/256-bit keys)
+· STREAM CIPHERS: Process one bit/byte at a time
+o RC4: (ARCFOUR) Used in older protocols
+o ChaCha20: Modern stream cipher
+BLOCK CIPHER MODES:
+· ECB (ELECTRONIC CODEBOOK):
+· Each block encrypted independently
+· WEAKNESS: Identical plaintext blocks create identical ciphertext blocks
+· Pattern preservation vulnerability
+· CBC (CIPHER BLOCK CHAINING):
+o Each block XORed w/ previous ciphertext block before encryption
+o REQUIRES initialization vector (IV)
+o ADVANTAGE: Identical plaintext blocks yield different ciphertext
+· OTHER MODES: CTR (Counter), GCM (Galois/Counter Mode), etc.
+CRYPTOGRAPHY
+CRYPTOGRAPHY FUNDAMENTALS
+· PLAINTEXT: Original readable message
+· CIPHERTEXT: Encrypted message
+· ENCRYPTION: Process of converting plaintext to ciphertext
+· DECRYPTION: Process of converting ciphertext to plaintext
+· KEY: Parameter that determines output of crypto algorithm
+· CRYPTANALYSIS: Process of attempting to defeat cryptographic protection
+GOALS OF CRYPTOGRAPHY:
+· CONFIDENTIALITY: Prevent unauthorized disclosure
+· INTEGRITY: Detect unauthorized modification
+· AUTHENTICATION: Verify identity of entities/origin of data
+· NON-REPUDIATION: Prevent denial of sending message
+SECURITY CONTROLS
+CONTROL TYPES
+· PREVENTIVE CONTROLS: Avoid incidents before they occur
+o E.G.: Firewalls, encryption, security awareness training
+o GOAL: Reduce likelihood of threat exploitation
+· DETECTIVE CONTROLS: Identify incidents during or after occurrence
+o E.G.: IDS/IPS, security cameras, audit logs, monitoring
+o GOAL: Reduce impact by timely detection
+· CORRECTIVE CONTROLS: Repair damage after incidents
+o E.G.: Backups, incident response, disaster recovery
+o GOAL: Minimize consequence of incident
+AS/NZS 27002:2022 CONTROL CATEGORIES
+· ORGANIZATIONAL CONTROLS (5.1-5.37): Management approaches
+o POLICIES & PROCEDURES: Security policies, acceptable use, doc-ed procedures
+o ROLES & RESPONSIBILITIES: Security roles, separation of duties
+o ASSET MANAGEMENT: Inventory, classification, labelling, return
+o SUPPLIER MANAGEMENT: Security in supplier relationships, cloud services
+o INCIDENT MANAGEMENT: Planning, assessment, response, learning
+· PEOPLE CONTROLS (6.1-6.8): Human resource security
+o SCREENING: Background checks before employment
+o TERMS & CONDITIONS: Security responsibilities in employment contracts
+o AWARENESS & TRAINING: Security education programs
+o DISCIPLINARY PROCESS: Consequences for policy violations
+o RESPONSIBILITIES: During/after termination of employment
+· PHYSICAL CONTROLS (7.1-7.14): Physical environment
+o PHYSICAL ENTRY: Secure areas, delivery areas
+o EQUIPMENT SECURITY: Siting, utilities support, cabling, maintenance
+o CLEAR DESK/SCREEN: Policies for unattended equipment
+o SECURE DISPOSAL: Media handling, equipment disposal
+· TECHNOLOGICAL CONTROLS (8.1-8.34): Technical measures
+o ACCESS CONTROL: User provisioning, authentication, authorization
+o CRYPTOGRAPHY: Key management, encryption implementation
+o ENDPOINT SECURITY: Malware protection, technical vulnerabilities
+o NETWORK SECURITY: Segregation, filtering, wireless access
+CONTROL SELECTION PRINCIPLES
+· RISK BASED: Controls should address identified risks
+· DEFENSE IN DEPTH: Multiple layers of protection
+· PRINCIPLE OF LEAST PRIVILEGE: Minimal access needed for function
+· SEPARATION OF DUTIES: Prevent fraud/error by dividing critical tasks
+· BASELINE CONTROLS: Minimum security for all Sys
+· COST-EFFECTIVENESS: Balance security w/ operational needs
+· USABILITY: Security should not unnecessarily impede operations
+CONTROL IMPLEMENTATION CONSIDERATIONS
+· TECHNICAL FEASIBILITY: Can the control be implemented w/ available technology?
+· OPERATIONAL IMPACT: How will control affect business operations?
+· MAINTENANCE REQUIREMENTS: Resources needed to maintain controls
+· MONITORING EFFECTIVENESS: Metrics to assess control performance
+· USER ACCEPTANCE: Will users comply or try to bypass controls?
+· TESTING: Validate controls work as intended before deployment
+ROLE-BASED ACCESS CONTROL (RBAC)
+CONCEPT: Access based on job functions/roles
+IMPLEMENTATION: Roles assigned to users; permissions assigned to roles
+E.G.: Enterprise applications, healthcare Sys
+COMPONENTS:
+USERS: Individual accounts
+ROLES: Named job functions
+PERMISSIONS: Actions on protected resources
+SESSIONS: Active user-role assignments
+ADVANTAGES:
+Simplifies administration
+Supports principle of least privilege
+Easier to audit
+DISADVANTAGES:
+Role explosion in complex organizations
+May not handle exceptions well
+Initial setup can be complex
+
+ATTRIBUTE-BASED ACCESS CONTROL (ABAC)
+Access based on attributes of user, resource, action, context
+IMPLEMENTATION: Policy rules evaluating multiple attributes
+E.G.: Cloud services, cross-domain Sys
+ADVANTAGES:
+Highly flexible and expressive
+Can implement fine-grained policies
+Accommodates dynamic conditions
+DISADVANTAGES:
+Complex to administer
+Performance overhead for policy evaluation
+Difficult to verify policy correctness
+
+    AUTHENTICATION IMPLEMENTATION
+PASSWORD AUTHENTICATION
+MULTI-FACTOR AUTHENTICATION (MFA):
+SOFTWARE TOKENS: Authenticator apps (TOTP)
+HARDWARE TOKENS: Physical devices (FIDO/U2F)
+SMS/EMAIL: Codes sent to secondary channel
+PUSH NOTIFICATIONS: Approval via mobile device
+· BIOMETRIC AUTHENTICATION:
+FALSE ACCEPTANCE RATE (FAR): Security measure
+FALSE REJECTION RATE (FRR): Usability measure
+TEMPLATE PROTECTION: Biometric data storage
+LIVENESS DETECTION: Prevent presentation attacks
+
+PRIVILEGED ACCESS MANAGEMENT
+JUST-IN-TIME ACCESS: Temporary elevation of privileges
+PRIVILEGED ACCESS WORKSTATIONS (PAWs): Dedicated admin Sys
+SESSION RECORDING: Monitoring privileged user actions
+CREDENTIAL VAULTING: Secure storage for privileged credentials
+ADMIN ACCOUNT SEPARATION: Regular vs. privileged accounts
+EMERGENCY ACCESS: Break-glass procedures for critical situations
+SEPARATION OF DUTIES
+Critical tasks divided among multiple people
+STATIC SEPARATION: User cannot have conflicting roles
+DYNAMIC SEPARATION: User cannot activate conflicting roles simultaneously
+PURPOSE:
+Prevent fraud through collusion requirement
+Reduce errors through multiple reviews
+Enhance accountability through task division
+ACCESS CONTROL MODELS & IMPLEMENTATION
+ACCESS CONTROL CONCEPTS
+· IDENTIFICATION: Who you claim to be
+o IDENTIFIERS: Usernames, account numbers, badges, biometric templates
+o PROPERTIES: Should be unique, non-descriptive if possible
+· AUTHENTICATION: Proving identity claims
+o SOMETHING YOU KNOW: Passwords, PINs
+o SOMETHING YOU HAVE: Smart cards, tokens
+o SOMETHING YOU ARE: Biometrics
+o SOMEWHERE YOU ARE: Location-based
+§ SINGLE-FACTOR: One authentication method
+§ MULTI-FACTOR: Two or more different categories used together
+· AUTHORIZATION: What authenticated users can do
+o PERMISSIONS: Read, write, execute, delete, create
+o OBJECTS: Files, directories, databases, network resources
+o MECHANISMS: ACLs, capability tables, role assignments
+· ACCOUNTABILITY: Tracking actions performed
+o AUDIT LOGS: Record of user activities
+o NON-REPUDIATION: Preventing denial of actions
+
+ACCESS CONTROL MODELS
+· DISCRETIONARY ACCESS CONTROL (DAC)
+o CONCEPT: Owner determines who has access
+o IMPLEMENTATION: Access Control Lists (ACLs)
+o E.G.: File permissions in Windows/Linux file Sys
+o ADVANTAGES:
+§ Flexibility for resource owners
+§ Simple to understand
+§ Widely implemented
+o DISADVANTAGES:
+§ No central policy enforcement
+§ Vulnerable to Trojan horse attacks
+§ Administrative overhead
+· MANDATORY ACCESS CONTROL (MAC)
+o CONCEPT: Sys-enforced policies based on security labels
+o IMPLEMENTATION: Security clearance and classification lvls
+o E.G.: Military/government Sys, SELinux
+o MODELS:
+§ BELL-LAPADULA MODEL: Confidentiality focus
+ NO READ UP: Subject cannot read object at higher lvl
+ NO WRITE DOWN: Subject cannot write to lower lvl
+§ BIBA MODEL: Integrity focus
+ NO READ DOWN: Subject cannot read object at lower lvl
+ NO WRITE UP: Subject cannot write to higher lvl
+o ADVANTAGES:
+§ Enforces organization-wide security policy
+§ Protection from Trojan horse attacks
+§ Strong security for highly sensitive environments
+o DISADVANTAGES:
+§ Rigid and inflexible
+§ High administrative overhead
+§ Complex implementation
+
